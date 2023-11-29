@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ignore virtual environment
+venv/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore .env file
+.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore local configuration files
+local_settings.py
+
+# Ignore Django migration files
+**/migrations/

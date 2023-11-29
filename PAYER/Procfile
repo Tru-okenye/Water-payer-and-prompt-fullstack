@@ -1,0 +1,2 @@
+
+web: gunicorn PAYER.wsgi:application --log-file -

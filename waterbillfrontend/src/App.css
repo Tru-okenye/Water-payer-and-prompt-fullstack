@@ -1,0 +1,110 @@
+/* Home page */
+body{
+    background-image: url('./images/waterbg.webp');
+    background-repeat: none;
+    max-width: 100%;
+    background-size: cover;
+}
+nav {
+  
+    margin-bottom: 3rem;
+ 
+}
+.link {
+    text-decoration: none;
+    margin-left: 6rem;
+    font-size: 2rem;
+    color: black;
+}
+
+/* Login page  */
+
+.Login{
+    display: grid;
+    justify-content: center;
+  
+}
+.LoginPage {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    padding: 3rem ;
+    color: white;
+    width: 20rem;
+}
+.Loginbutton {
+    width: 8rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding: 0.2rem;
+    border: none;
+}
+.Loginbutton:hover {
+    background-color: rgb(82, 71, 71);
+    color: white;
+    border: none;
+}
+.LoginPage input {
+    margin-left: 2rem;
+    width: 12rem;
+   
+}
+.Payment {
+    display: grid;
+    justify-content: center;
+    padding: 3rem;
+    background-color: rgb(41, 34, 34);
+    color: white;
+}
+.Payment button {
+        width: 10rem;
+            margin-left: 3rem;
+            margin-top: 2rem;
+            padding: 0.2rem;
+         
+}
+.Payment button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.Payreturn{
+        display: grid;
+            justify-content: center;
+}
+
+/* Success page */
+.Success{
+    display: grid;
+        justify-content: center;
+        
+}
+.Successpage {
+    display: grid;
+    justify-content: center;
+    padding: 3rem;
+    background-image: url('./images/cheers.jpeg');
+}
+.Successpage button {
+            width: 10rem;
+            margin-left: 3rem;
+            margin-top: 2rem;
+            padding: 0.2rem;
+           
+}
+.Link {
+    text-decoration: none;
+    color: black;
+  
+}
+.Successpage button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.Link:hover {
+   
+    color: white;
+
+}
