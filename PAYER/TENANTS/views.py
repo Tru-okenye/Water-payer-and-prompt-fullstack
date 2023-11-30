@@ -80,7 +80,7 @@ def authenticated_tenant_details(request, tenant_id):
 @api_view(['POST'])
 def initiate_stk(request, tenant_id):
     #     # Get the API endpoint from settings
-    ENDPOINT = 'https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest'
+    ENDPOINT = settings.ENDPOINT
     
     print(f"Received request with tenant_id: {tenant_id}")
     tenant = Tenant.objects.get(tenant_id=tenant_id)
@@ -161,7 +161,7 @@ def initiate_stk(request, tenant_id):
 @api_view(['POST'])
 def payment_callback(request):
     # Get the API endpoint for STK push query from settings
-    QUERY_ENDPOINT = 'https://api.safaricom.co.ke/mpesa/stkpushquery/v1/query'
+    QUERY_ENDPOINT = settings.QUERY
     
     data = json.loads(request.body.decode('utf-8'))
 

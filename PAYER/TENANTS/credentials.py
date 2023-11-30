@@ -64,10 +64,3 @@ def generate_timestamp():
     return datetime.now().strftime("%Y%m%d%H%M%S")
 
 
-    # def generate_password(self):
-    #     """Generates mpesa api password using the provided shortcode and passkey"""
-    #     self.timestamp = now.strftime("%Y%m%d%H%M%S")
-    #     password_str = env("shortcode") + env("pass_key") + self.timestamp
-    #     password_bytes = password_str.encode("ascii")
-    #     return base64.b64encode(password_bytes).decode("utf-8")
-    # base64.b64encode(hashlib.sha256(data.encode()).digest()).decode('utf-8')
