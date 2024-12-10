@@ -8,7 +8,7 @@ class Tenant(models.Model):
     amount_due = models.IntegerField()
     is_paid = models.BooleanField(default=False)
     due_date = models.DateField(null=True)
-    checkout_request_id = models.CharField(max_length=255, null=True)
+    checkout_request_id = models.CharField(max_length=255, null=True, blank=True)
     
 
 class PaymentTransaction(models.Model):
